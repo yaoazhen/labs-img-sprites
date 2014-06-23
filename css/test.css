@@ -1,0 +1,36 @@
+.tree.current:before {
+  background-image: url(../img/level1_curr.png);
+}
+.tree:before {
+  background-image: url(../img/level1.png);
+}
+.tree:nth-child(2):before {
+  background-image: url(/img/level2.png);
+}
+.tree.current:nth-child(2):before {
+  background-image: url(../img/level2_curr.png);
+}
+.tree:nth-child(3):before {
+  background-image: url('../img/level3.png');
+}
+.tree.current:nth-child(3):before {
+  background-image: url(../img/level3_curr.png);
+}
+.tree:nth-child(4):before {
+  background-image: url('/img/level4.png');
+}
+.tree.current:nth-child(4):before {
+  background-image: url(../img/level4_curr.png);
+}
+.tree:nth-child(5):before {
+  background-image: url(../img/level5.png);
+}
+.tree.current:nth-child(5):before {
+  background-image: url(../img/level5_curr.png);
+}
+.tree:nth-child(6):before {
+  background-image: url(../img/level6.png);
+}
+.tree.current:nth-child(6):before {
+  background-image: url(../img/level6_curr.png);
+}
